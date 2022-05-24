@@ -1,0 +1,29 @@
+.renoLogo{
+    width: 60px;
+    height: 60px;
+    display: inline;
+}
+.navMain{
+    height: 60px;
+    background-color: #333333;
+    color: white;
+    border: 2px solid black;
+
+}
+.renoName{
+    color: white;
+    display: block;
+    position: relative;
+    top: -68px;
+    left: 92px;
+    background-color: #333;
+    font-size: 22px;
+    font-family: -webkit-body;
+    animation-name: reno;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes reno {
+    from {left: 60px;}
+    to {left: 47vw; background-color: #333;}
+}

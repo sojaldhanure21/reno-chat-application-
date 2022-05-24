@@ -1,0 +1,32 @@
+*{
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+.loginBlock{
+    background-color: #535c68;
+    height: 100vh;
+    text-align: center;
+    
+}
+.loginDiv{
+    position: relative;
+    top: 20vh;
+}
+.loginButton{
+    padding: 4px 24px 4px 24px;
+    display: inline;
+    border: none;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.registerButton{
+    padding: 4px 24px 4px 24px;
+    display: inline;
+    border: none;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+}

@@ -1,0 +1,32 @@
+.Container{
+    display: inline;
+    height: 60px;
+    width: 50vw;
+    background-color: #3b3c36;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    
+  
+}
+
+.topbarLeft{
+flex: 4;
+
+}
+.logData{
+width: 32px;
+height: 32px;
+border-radius: 50%;
+object-fit: cover;
+cursor: pointer;
+}
+.profileimg{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+cursor: pointer;
+}

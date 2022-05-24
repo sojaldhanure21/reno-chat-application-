@@ -1,0 +1,40 @@
+.contactBox{
+    background-color: #555555;
+    position: relative;
+    top: 0px;
+    width: 50vw;
+    height: 100vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+   
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.contactList{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    
+}
+
+.contactList:hover{
+    background-color: #333333;
+
+}
+.profilePic{
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.profileName{
+    position: relative;
+    left: 6vw;
+    top: -12px;
+    font-size: 20px;
+}
